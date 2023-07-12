@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.p1{
+    background-color: aqua;
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    background-color: brown;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding:10px;
+    z-index:100000;
+}
+img{
+    width: 500px;
+}
